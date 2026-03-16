@@ -83,7 +83,7 @@ const Services = () => {
               className="bg-white p-8 rounded-3xl shadow-sm hover:shadow-xl transition-all border border-gray-100 group relative overflow-hidden"
             >
               {/* Hover background effect */}
-              <div className="absolute inset-0 bg-primary/5 translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out -z-0"></div>
+              <div className="absolute inset-0 bg-primary/5 translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out z-0"></div>
               
               <div className="relative z-10 flex flex-col h-full">
                 <div className="w-16 h-16 rounded-2xl bg-secondary flex items-center justify-center mb-6 shadow-inner group-hover:scale-110 transition-transform duration-300">
