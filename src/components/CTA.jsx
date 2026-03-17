@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import { FaWhatsapp } from 'react-icons/fa';
 
 const CTA = () => {
   return (
@@ -25,14 +26,17 @@ const CTA = () => {
           
           <div className="flex flex-col sm:flex-row justify-center gap-6">
             <a 
-              href="tel:+919652259187"
-              className="bg-white text-primary px-10 py-5 rounded-full font-bold text-lg hover:bg-rose-50 transition-colors duration-300 shadow-xl hover:shadow-2xl hover:-translate-y-1"
+              href="https://wa.me/919652259187?text=Hi!%20I%20would%20like%20to%20book%20an%20appointment."
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-white text-primary px-10 py-5 rounded-full font-bold text-lg hover:bg-rose-50 transition-colors duration-300 shadow-xl hover:shadow-2xl hover:-translate-y-1 flex items-center justify-center gap-2"
             >
-              Book Appointment
+              <FaWhatsapp className="text-2xl text-green-600" />
+              Book on WhatsApp
             </a>
             <a 
               href="tel:+919652259187"
-              className="bg-transparent text-white border-2 border-white px-10 py-5 rounded-full font-bold text-lg hover:bg-white hover:text-primary transition-all duration-300"
+              className="bg-transparent text-white border-2 border-white px-10 py-5 rounded-full font-bold text-lg hover:bg-white hover:text-primary transition-all duration-300 flex items-center justify-center gap-2"
             >
               Call Now
             </a>

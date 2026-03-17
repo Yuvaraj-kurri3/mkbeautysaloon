@@ -59,7 +59,7 @@ const Hero = () => {
           >
             <div className="relative rounded-t-[100px] rounded-br-[100px] overflow-hidden shadow-2xl border-4 border-white h-[500px] md:h-[600px] w-full max-w-md mx-auto">
               {/* placeholder color since we don't have images right now */}
-              <div className="absolute inset-0 bg-gradient-to-tr from-rose-200 to-rose-100 flex items-center justify-center">
+              <div className="absolute inset-0 bg-linear-to-tr from-rose-200 to-rose-100 flex items-center justify-center">
                 <img 
                   src="https://images.unsplash.com/photo-1560066984-138dadb4c035?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
                   alt="Beautiful woman receiving beauty treatment" 

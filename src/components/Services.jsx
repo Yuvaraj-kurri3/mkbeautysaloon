@@ -94,7 +94,7 @@ const Services = () => {
                   {service.title}
                 </h3>
                 
-                <p className="text-gray-600 mb-8 flex-grow">
+                <p className="text-gray-600 mb-8 grow">
                   {service.description}
                 </p>
                 
